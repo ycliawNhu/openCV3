@@ -29,6 +29,7 @@
 		5C2F77BE1C3C09DE00917C92 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5C2F77C51C3C9F1500917C92 /* libopencv_highgui.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.1.0.dylib; path = ../../../../usr/local/Cellar/opencv3/3.1.0/lib/libopencv_highgui.3.1.0.dylib; sourceTree = "<group>"; };
 		5C2F77C61C3C9F1500917C92 /* libopencv_core.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.1.0.dylib; path = ../../../../usr/local/Cellar/opencv3/3.1.0/lib/libopencv_core.3.1.0.dylib; sourceTree = "<group>"; };
+		5C2F77CA1C3CC49D00917C92 /* Install_OpenCV3_Mac.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Install_OpenCV3_Mac.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 				5C2F77C61C3C9F1500917C92 /* libopencv_core.3.1.0.dylib */,
 				5C2F77BD1C3C09DE00917C92 /* opencvTest */,
 				5C2F77BC1C3C09DE00917C92 /* Products */,
+				5C2F77CA1C3CC49D00917C92 /* Install_OpenCV3_Mac.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +251,7 @@
 				5C2F77C41C3C09DE00917C92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

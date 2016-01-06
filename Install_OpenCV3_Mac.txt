@@ -1,0 +1,12 @@
+*Install openCV3 in Mac OS
+brew tap homebrew/science
+brew install opencv3
+
+*Create xcode project
+1.Create a project using template "Command Line Tool"
+2.Modify build setting of the project
+  - Header search paths to opencv3's include path
+    EX. -> "/usr/local/Cellar/opencv3/3.1.0/include" with recursive option
+  - Library search paths to opencv3's lib path
+    EX. -> "/usr/local/Cellar/opencv3/3.1.0/lib"
+
