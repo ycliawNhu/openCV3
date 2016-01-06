@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5C2F77BF1C3C09DE00917C92 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F77BE1C3C09DE00917C92 /* main.cpp */; };
+		5C2F77C71C3C9F1500917C92 /* libopencv_highgui.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2F77C51C3C9F1500917C92 /* libopencv_highgui.3.1.0.dylib */; };
+		5C2F77C81C3C9F1500917C92 /* libopencv_core.3.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2F77C61C3C9F1500917C92 /* libopencv_core.3.1.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		5C2F77BB1C3C09DE00917C92 /* opencvTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencvTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2F77BE1C3C09DE00917C92 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C2F77C51C3C9F1500917C92 /* libopencv_highgui.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.3.1.0.dylib; path = ../../../../usr/local/Cellar/opencv3/3.1.0/lib/libopencv_highgui.3.1.0.dylib; sourceTree = "<group>"; };
+		5C2F77C61C3C9F1500917C92 /* libopencv_core.3.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.1.0.dylib; path = ../../../../usr/local/Cellar/opencv3/3.1.0/lib/libopencv_core.3.1.0.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2F77C71C3C9F1500917C92 /* libopencv_highgui.3.1.0.dylib in Frameworks */,
+				5C2F77C81C3C9F1500917C92 /* libopencv_core.3.1.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +47,8 @@
 		5C2F77B21C3C09DE00917C92 = {
 			isa = PBXGroup;
 			children = (
+				5C2F77C51C3C9F1500917C92 /* libopencv_highgui.3.1.0.dylib */,
+				5C2F77C61C3C9F1500917C92 /* libopencv_core.3.1.0.dylib */,
 				5C2F77BD1C3C09DE00917C92 /* opencvTest */,
 				5C2F77BC1C3C09DE00917C92 /* Products */,
 			);
@@ -207,6 +215,8 @@
 		5C2F77C31C3C09DE00917C92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "/usr/local/Cellers/opencv3/include/**";
+				LIBRARY_SEARCH_PATHS = "/usr/local/Cellers/opencv3/lib/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +224,8 @@
 		5C2F77C41C3C09DE00917C92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "/usr/local/Cellers/opencv3/include/**";
+				LIBRARY_SEARCH_PATHS = "/usr/local/Cellers/opencv3/lib/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
