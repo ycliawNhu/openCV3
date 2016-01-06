@@ -215,8 +215,8 @@
 		5C2F77C31C3C09DE00917C92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "/usr/local/Cellers/opencv3/include/**";
-				LIBRARY_SEARCH_PATHS = "/usr/local/Cellers/opencv3/lib/**";
+				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv3/3.1.0/include/**";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv3/3.1.0/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -224,8 +224,8 @@
 		5C2F77C41C3C09DE00917C92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "/usr/local/Cellers/opencv3/include/**";
-				LIBRARY_SEARCH_PATHS = "/usr/local/Cellers/opencv3/lib/**";
+				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv3/3.1.0/include/**";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv3/3.1.0/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
